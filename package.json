@@ -1,0 +1,31 @@
+{
+  "name": "app",
+  "version": "1.0.0",
+  "description": "Aplicacion de prueba para vacante de desarrollador backend",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EduardoMataNavarro/Tendencys-prueba-vacante.git"
+  },
+  "author": "Eduardo Mata Navarro",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EduardoMataNavarro/Tendencys-prueba-vacante/issues"
+  },
+  "homepage": "https://github.com/EduardoMataNavarro/Tendencys-prueba-vacante#readme",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.11.19",
+    "socket.io": "^4.0.0"
+  },
+  "devDependencies": {
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.7"
+  }
+}
